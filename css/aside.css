@@ -1,0 +1,45 @@
+.aside  
+{
+    display:inline-block;
+    /* background-color: yellow; */
+    float: left; /* Обтекание справа */
+    /* border: 1px solid #333; Параметры рамки вокруг */
+    height:100%;
+    width: 20%; /* Ширина колонки */
+    padding: 5px; /* Поля вокруг текста */
+    margin: 0px 1px 1px 0px; /* Значения отступов */
+    border-color:#808080;
+    border-width: 1px;
+    border-style: solid;
+    
+}
+.aside-title
+{
+    align-items: center;
+    font-size:40px;
+    font-weight: bold;
+}
+.aside-list
+{
+    display:inline-block;
+    padding: 0px;
+    padding-inline-start: 0px;
+}
+.aside-list-item
+{
+    display: block;
+    /* margin: 10 px 0px 10 px 10 px; */
+    font-size: 25px;
+    background-color: rgba(103, 164, 185, 0.8);
+    border-color:rgba(0, 0, 1, 0.2);
+    border-width: 2px;
+    border-style: double;
+    padding:  0.5 rem 1 rem;
+    margin-bottom: 10px;
+    text-decoration:none;
+    font-style:initial;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    list-style: none;
+    padding-inline-start: 0px;
+} 

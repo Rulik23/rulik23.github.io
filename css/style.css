@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    padding-inline-start: 0px;
+}
+    body{
+            display: block;
+            min-width:800px; /*Устанавливаем минимальную ширину страницы*/
+            margin: 0; /*Убираем отступы*/
+            }
+
+    
+    .header
+            {
+            display: block;
+            padding: 0.5 rem 2 rem; /*Устанавливаем отступы*/
+            height: 6rem;
+            background-color: rgba(103, 164, 185, 0.8);/*Устанавливаем цвет фона*/
+            color: rgb(10, 10, 10);
+            }
+
+    .header-logo
+            {
+            margin-top: 10px;
+            font-size: 40px;
+            text-decoration:none;
+            font-style:initial;
+            font-weight: bold;
+            color: rgb(10, 10, 10);
+            list-style: none;
+            vertical-align:top;
+            }
+    .header-logo-img
+            {
+            /* height: 75px; */
+            width: 155px;
+            }
+    .header-nav
+            {
+            padding-right: 55px;
+            font-size: 25px;
+            text-decoration:none;
+            font-style:initial;
+            font-weight: bold;
+            color: rgb(10, 10, 10);
+            list-style: none;
+            vertical-align:top;
+            text-align: center;
+            vertical-align: top;
+            }
+
+.float-left
+{
+    float: left!important;
+    padding-left: 2rem;
+}
+.float-right
+{
+    float: right!important;
+    padding-left: 2rem;
+}
+
+/* .nav{} */
+/* .logo{} */
+   
+/* .categories */
+   
+/* .top-baner{} */
+/* .page{} */
+    .footer
+        {
+            bottom: 0;
+            position: relative;
+            display: block;
+            height: 2.75rem;
+            background-color: rgba(103, 164, 185, 0.8);
+            border-color:rgba(0, 0, 1, 0.2);
+            border-width: 1px;
+            border-style: solid;
+            padding: 5px; /* Поля вокруг текста */
+            clear: left; /* Отменяем действие float */
+
+        }
+        .footer-logo-img-small
+            {
+            /* height: 75px; */
+            width: 50px;}
