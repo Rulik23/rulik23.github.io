@@ -1,0 +1,18 @@
+/*Стиль для footer*/
+.footer
+{
+    bottom: 0;
+    position: relative;
+    display: block;
+    height: 2.75rem;
+    background-color: rgba(103, 164, 185, 0.8);
+    border-color:rgba(0, 0, 1, 0.2);
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px;
+    clear: left; /* Отменяем действие float */
+}
+/*Стиль для лого для footer*/
+.footer-logo-img-small
+    {
+    width: 50px;}

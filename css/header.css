@@ -1,0 +1,51 @@
+ /*Заголовок*/   
+ .header
+ {
+ display: block;
+ padding: 0.5 rem 2 rem;
+ height: 6rem;
+ background-color: rgba(103, 164, 185, 0.8);
+ color: rgb(10, 10, 10);
+ }
+/*Лого-текст в заголовке*/
+.header-logo
+ {
+ display: inline-block;
+ margin: 10px 10px 40px 10px;
+ font-size: 40px;
+ text-decoration:none;
+ font-style:initial;
+ font-weight: bold;
+ color: rgb(10, 10, 10);
+ list-style: none;
+ }
+/*Лого в заголовке*/
+.header-logo-img
+ {
+ display: inline-block;
+ width: 155px;
+ }
+/*Форма Поиск в заголовке */
+.header-seach
+{
+display: inline-block;
+font-size: 20px;
+text-align: center;
+margin: 10px 10px 50px 10px;
+}
+
+/*Навигация в заголовке*/
+.header-nav
+ {
+ display: block;
+ padding-right: 55px;
+ margin: 40px 150px 10px 10px;
+ font-size: 25px;
+ text-decoration:none;
+ font-style:initial;
+ font-weight: bold;
+ color: rgb(10, 10, 10);
+ list-style: none;
+ text-align: center;
+ border:3px,solid, rgba(247, 245, 206,0.5);
+ }
