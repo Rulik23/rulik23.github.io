@@ -1,7 +1,7 @@
-*{
+<!--*{
     padding: 0;
     padding-inline-start: 0px;
-}
+}-->
     body{
             display: block;
             min-width:800px; /*Устанавливаем минимальную ширину страницы*/
